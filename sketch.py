@@ -1,7 +1,7 @@
 import cv2
 
 # Step 1: Load the image
-image = cv2.imread('swathy.jpg')
+image = cv2.imread('flower.jpg')
 
 # Step 2: Convert to grayscale
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
